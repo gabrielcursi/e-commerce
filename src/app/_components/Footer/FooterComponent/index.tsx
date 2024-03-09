@@ -16,7 +16,6 @@ export function FooterComponent({ footer }: { footer: Footer }) {
 
   const navItems = footer?.navItems || []
 
-  console.log(footer)
   return (
     <footer className={noHeaderFooterUrls.includes(pathname) ? classes.hide : ''}>
       <Gutter>
